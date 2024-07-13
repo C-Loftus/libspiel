@@ -43,6 +43,10 @@ meson setup build
 meson compile -C build
 ```
 
+To run test the Python example above, or a similar GObject client, make sure you inside the build environment by running `meson devenv -C build`.
+
+To install libspiel across your system run
+
 ## Documentation
 
 There is an [auto-generated API reference](https://project-spiel.org/libspiel/).
